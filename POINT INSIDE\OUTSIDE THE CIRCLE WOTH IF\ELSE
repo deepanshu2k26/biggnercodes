@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+  int x,y,r;
+  printf("ENTER THE RADIUS OF CIRCLE=");
+  scanf("%d",&r);
+  printf("ENTER THE X COORDINATE OF POINT=");
+  scanf("%d",&x);
+  printf("ENETR THE Y COORDINATE OF THE POINT=");
+  scanf("%d",&y);
+
+  if(r*r==x*x+y*y)
+    {
+    printf("POIINT IS ON THE CIRCLE");
+    }
+  else
+  {
+    if(r*r<x*x+y*y)
+    {
+      printf("POINT IS OUTSIDE THE CIRCLE");
+    }
+    else
+      {
+        if(r*r>>x*x+y*y)
+        {
+          printf("POINT IS INSIDE THE CIRCLE");
+        }
+      else
+        {
+          printf("INVALID STATEMENT");
+        }
+      }
+  }
+  
+}
