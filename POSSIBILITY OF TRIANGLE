@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+ int x,y,z;
+ printf("ENTER THE FIRST SIDE 'X'=");
+ scanf("%d",&x);
+ printf("ENTER THE 2ND SIDE 'Y'=");
+ scanf("%d",&y);
+ printf("ENTER THE 3RD SIDE 'Z'=");
+  scanf("%d",&z);
+if(x+y>z)
+{
+  if(y+z>x)
+  {
+    if(z+x>y)
+    {
+      printf("TRIANGLE POSSIBLE");
+    }
+    else
+    {
+      printf("NOT POSSIBLE");
+    }
+  }
+    else
+      {
+        printf("NOT POSSIBLE");
+  }
+}
+  else
+  {
+    printf("NOT POSSIBLE");
+}
+}
