@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+  int x,y;
+  printf("ENTER X COORDINATE=");
+  scanf("%d",&x);
+  printf("ENTER Y COORDINATE");
+  scanf("%d",&y);
+  if(x>0)
+  {
+    if(y>0)
+    {
+      printf("POINT IS IN 1ST QUADRANT");
+    }
+  else
+    {
+      printf("POITN IS IN 4TH QUADRANT");
+    }
+  }
+  else
+  {
+    if(y>0)
+    {
+      printf("POINT IS IN 2ND QUADRANT");
+    }
+    else
+    {
+      printf("POINT IS IN 3RD QUADRANT");
+    }
+  }
+}
